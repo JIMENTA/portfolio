@@ -1,0 +1,101 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+
+}
+
+.logo-brand {
+  height: 50px;
+  width: auto;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-item :hover{ 
+color: green;
+}
+
+section{
+  padding: 50px;
+}
+p{
+  font-size: 1rem;
+}
+
+#intro{
+  background: url("img/fondo.jpg");
+  background-size: cover;
+  opacity: 0.8;
+  color: #fff;
+}
+
+.intro{
+  text-shadow: 2px 1px 2px black;
+}
+
+.card-details{
+    margin-bottom: 1.5rem;
+}
+
+
+
+.form-control{
+  font-size: 14px;
+  border: 1px solid #cacaca;
+  padding: 15px;
+  border-radius: 2px;
+  height: auto;
+}
+.form-control:focus{
+  border: 1px solid #1a1a1a;
+  outline: none;
+  box-shadow: none;
+
+}
+.btnForm{
+  font-size: 14px;
+  padding: 15px 26px;
+  border-radius: 2px;
+}
+
+#footer {
+    text-align: center;
+    color: #198754;
+  }
+#footer a {
+    color: #198754;
+    text-decoration: none;
+    font-size: 1m;
+  }
+#footer a:hover {
+    color: #198754;
+  }
+
+#footer .list-inline .list-inline-item {
+    padding: 8px;
+  }
+#footer i{
+    font-size: 40px;
+  }
+
