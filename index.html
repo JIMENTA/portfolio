@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="styles.css">
     <!-- ICONS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">    <title>Jimenta</title>
+    <link rel="icon"  href="img/stars.svg">
+
 </head>
 <body>
     <!-- NAVBAR -->
@@ -30,7 +32,7 @@
                         <a class="nav-link" href="#projects">Proyectos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#aboutme">Sobre mí</a>
+                        <a class="nav-link" href="#about">Sobre mí</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contacto</a>
@@ -39,33 +41,40 @@
             </div>
         </div>
     </nav>
-
     <!-- HERO -->
-    <section class="mx-auto text-center pt-5 mb-5" id="intro">
-        <div class="intro">
-            <h1>Hola! Soy <b> Jime </b></h1>
-            <h2 class="text-success fs-1 mb-4" id="typewriter"></h2>
-            <p class="fs-3"> Es un placer que visites mi pagina,</p>
-            <p class="fs-3">aqui muestro algo de los que fui aprendiendo con el tiempo</p>
-            <p class="fs-3"> como desarrolladora y proximamente como analista de datos. </p> 
-                <br>
-            <b class="fs-3">Welcome!</b>                    
-        </div> 
+    <section class="hero" data-aos="fade-right">
+        <div class="container">
+            <div class="row g-0 h-100 ">
+                <div class="col-lg-6 d-flex">
+                    <div class="content mx-auto align-self-center my-5">
+                        <h1 class="display-2 fw-bold mb-4">Hola! Soy Jime </h1>
+                        <h2 class="text-success display-4 fw-bold mb-4" id="typewriter"></h2>
+                        <p class="lead my-6 py-6">Es un placer que visites mi pagina, aqui muestro algo de los que fui aprendiendo con el tiempo  como desarrolladora y proximamente como analista de datos. 
+                        </p>
+                        <h2 class="fw-bold mb-4">Welcome!</h2>                    
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex">
+                    <div class="content mx-auto align-self-center px-4 my-5">
+                        <img src="img/undraw_portfolio_website_re_jsdd.svg" class="img-fluid" alt="together">
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-
     <!-- PROJECTS -->
-    <section class="mx-auto text-center pt-5 mb-5"  id="projects" >
+    <section class=" projects text-center"  id="projects"  >
         <div class="container">
             <div class="content-center mb-5">
-                <h2>Estos son algunos proyectos como  <b class="text-success">desarrolladora</b></h2>
-                <h3> Proyectos realizados a lo largo del bootcamp y como autodidacta</h3>
+                <p class="display-5 mb-4">Estos son algunos proyectos como  <b class="display-5 fw-bold">desarrolladora</b></p>
+                <p class="display-6 mb-4"> Proyectos realizados a lo largo del bootcamp y como autodidacta</p>
             </div>
 
             <div class="row">
                 <div class="col-md-6 mt-5">
                     <div class="card-container">
                         <div class="card-details">
-                         <h5 class="text-success mb-2"> <b>Stars Wars ships </b></h5>
+                         <h5 class="fs-3 fw-bold text-success mb-2"> <b>Stars Wars ships </b></h5>
                          <p>Desarrollo de aplicacion consuminedo API de Stars Wars <br> utlizando Angular, TypeScript</p>
                         </div>
                         <img src="img/starWars.png" class="img-fluid projectsImg" alt="projectos realizados">
@@ -80,7 +89,7 @@
                 <div class="col-md-6 mt-5">
                     <div class="card-container">
                             <div class="card-details">
-                             <h5 class="text-success mb-2"> <b>Beer Day </b></h5>
+                             <h5 class="fs-3 fw-bold text-success mb-2"> <b>Beer Day </b></h5>
                              <p>Desarrollo de aplicacion consuminedo API de BrewDog <br>utlizando Angular, TypeScript</p>
                             </div>
                             <img src="img/beerApp.png" class="img-fluid projectsImg" alt="projectos realizados">
@@ -94,7 +103,7 @@
                 <div class="col-md-6 mt-5">
                     <div class="card-container">
                         <div class="card-details">
-                             <h5 class="text-success mb-2"> <b>Smart Agency</b></h5>
+                             <h5 class="fs-3 fw-bold text-success mb-2"> <b>Smart Agency</b></h5>
                              <p>Desarrollo de landing page, utlizando HTML5, CSS y Javascript</p>
                             </div>
                             <img src="img/smartA.png" class="img-fluid projectsImg" alt="projectos realizados">
@@ -108,7 +117,7 @@
                 <div class="col-md-6 mt-5">
                     <div class="card-container">
                         <div class="card-details">
-                             <h5 class="text-success mb-2"> <b>ExpertD </b></h5>
+                             <h5 class="fs-3 fw-bold text-success mb-2"> <b>ExpertD </b></h5>
                              <p>Desarrollo de landing page, utlizando HTML5, CSS y Javascript</p>
                             </div>
                             <img src="img/expertD.png" class="img-fluid projectsImg" alt="projectos realizados">
@@ -122,7 +131,7 @@
                 <div class="col-md-6 mt-5">
                     <div class="card-container">
                         <div class="card-details">
-                             <h5 class="text-success mb-2"> <b>Mapps</b></h5>
+                             <h5 class="fs-3 fw-bold text-success mb-2"> <b>Mapps</b></h5>
                              <p>Practica utlizando Angular, TypeScript y Mapbox </p>
                             </div>
                             <img src="img/mapps.png" class="img-fluid projectsImg" alt="projectos realizados">
@@ -136,7 +145,7 @@
                 <div class="col-md-6 mt-5">
                     <div class="card-container">
                         <div class="card-details">
-                             <h5 class="text-success mb-2"> <b>Memory Card </b></h5>
+                             <h5 class="fs-3 fw-bold text-success mb-2"> <b>Memory Card </b></h5>
                              <p>Desarrollo Javascript y CSS</p>
                             </div>
                             <img src="img/memory.png" class="img-fluid projectsImg" alt="projectos realizados">
@@ -149,19 +158,41 @@
             </div>
         </div>
     </section>
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="container">
+            <div class="row g-0 h-100 ">
+                <div class="col-lg-6 d-flex">
+                    <div class="content mx-auto align-self-center px-4 my-5">
+                        <img src="img/undraw_love_it_0v4l.svg" class="img-fluid" alt="together">
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex">
+                    <div class="content mx-auto align-self-center px-4">
+                        <p class="display-6 mb-4"><b> Aqui te cuento algo sobre mi</b></p>
+                        <p class="lead mb-4">Mi interés por intentar crear mejores soluciones dentro de las aplicaciones que utilizo a diario y mi curiosidad por entender cómo funcionan las cosas me llevaron a iniciarme en el sector tecnológico. Empecé como autodidacta y luego me apunté al bootcamp intensivo de desarrollo front end de la IT Academy, continué mi formación a través del programa OpenBootcamp y de forma autónoma. 
+                            Actualmente me estoy introduciendo en el análisis de datos y también creo que es un mundo fascinante, ya que aúna todo lo que me apasiona como el diseño, el pensamiento crítico y la tecnología. 
+                            Hablemos :)
+                        </p>
+                        
+                    </div>
+                </div>
 
+            </div>
+        </div>
+    </section>
 <!-- CONTACT -->
-    <section id="contact">
+    <section class="contact py-5" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 mt-4">
-                    <h3><b>Estemos en contacto!</b></h3>
+                    <p class="display-6 mb-4"><b>Estemos en contacto!</b></p>
                     <p>Escribime si tienes alguna propuesta, duda, sugerencia todo lo que sea con amor es bienvenido
                     </p>
                 </div>
                 
                 <div class="col-md-6">
-                    <form action="post">
+                    <form action="https://formspree.io/f/xzblkbon" method="POST">
                     <div class="row">
                         <div class="col-md-6 mb-4">
                             <div class="form-group">
@@ -175,10 +206,10 @@
                         </div>
                     </div>
                     <div >
-                        <textarea class="form-control mb-4"></textarea>
+                        <textarea class="form-control mb-4" name="message"></textarea>
                     </div>
                     <div  class="d-grid gap-2">
-                        <a href="" class="btn btn-success btnForm">Enviar a Jime</a>
+                        <input type="submit" value="Enviar a Jime" class="btn btn-success btnForm">
                     </div>
                 </form>
                 </div>
@@ -188,9 +219,11 @@
 
 
     <!-- FOOTER -->
-    <section id="footer" class="bg-light">
+    <section id="footer" class=" footer bg-light">
         <div class="container">
-            <img src="img/menta.jpg" class="logo-brand mb-4" alt="logo">
+            <a class="navbar-brand" href="#"> 
+                <img src="img/menta.jpg" width="70" class="logo" alt="menta">
+            </a>
             <ul class="list-inline">
                 <li class="list-inline-item footer-menu"><a href="#">Home</a></li>
                 <li class="list-inline-item footer-menu"><a href="#">About me</a></li>

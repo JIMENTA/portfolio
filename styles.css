@@ -5,13 +5,20 @@ body {
     background-color: #f0f0f0;
 
 }
+section{
+  padding: 80px;
+}
+
+p{
+  font-size: 1.2rem;
+}
 
 .logo-brand {
   height: 50px;
   width: auto;
 }
 
-
+/* NAV */
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -27,39 +34,36 @@ nav a {
     color: #fff;
 }
 
-nav a {
-    text-decoration: none;
-    color: #fff;
-}
-
 .nav-item :hover{ 
-color: green;
+  color: green;
+  font-weight: 500;}
+
+
+
+/* HERO */
+.hero{
+  padding: 20px;
+}
+.ilustracion{
+  height: auto;
+  width: 10rem;
 }
 
-section{
-  padding: 50px;
+/* PROJECTS */
+.projects{
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
 }
-p{
-  font-size: 1rem;
-}
-
-#intro{
-  background: url("img/fondo.jpg");
-  background-size: cover;
-  opacity: 0.8;
-  color: #fff;
-}
-
-.intro{
-  text-shadow: 2px 1px 2px black;
-}
-
+.card-container{
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;}
 .card-details{
     margin-bottom: 1.5rem;
 }
 
 
-
+/* CONTACT */
 .form-control{
   font-size: 14px;
   border: 1px solid #cacaca;
@@ -71,7 +75,6 @@ p{
   border: 1px solid #1a1a1a;
   outline: none;
   box-shadow: none;
-
 }
 .btnForm{
   font-size: 14px;
@@ -79,6 +82,8 @@ p{
   border-radius: 2px;
 }
 
+
+/* FOOTER */
 #footer {
     text-align: center;
     color: #198754;
@@ -99,3 +104,11 @@ p{
     font-size: 40px;
   }
 
+@media (max-width:450px) {
+  .hero{
+    padding: 0px;
+  }
+  section{
+  padding: 20px;
+  }
+}
